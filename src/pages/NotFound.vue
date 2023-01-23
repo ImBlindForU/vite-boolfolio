@@ -15,7 +15,7 @@ export default {
         <div class="container not-found-container">
             <h1 class="text-center title">Error 404 NOT FOUND</h1>
             <div class="text-center">
-                <a @click.prevent="goHome()" class="btn btn-primary" href="">Torna nella pagina home</a>
+                <a @click.prevent="goHome()" class="btn btn-primary mt-5" href="">Torna nella pagina home</a>
             </div>
         </div>
     </main>

@@ -32,7 +32,7 @@ export default{
             <p class="card-text">
                 {{  contentPreview   }}
             </p>
-            <a href="#" class="btn btn-primary">Leggi</a>
+            <router-Link :to="{name: 'single-project', params:{slug: project.slug}}" href="#" class="btn btn-primary">Leggi</router-Link>
         </div>
     </div>
 
